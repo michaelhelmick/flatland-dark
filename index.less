@@ -103,9 +103,6 @@
 .declaration.tag, .declaration.tag .entity, .meta.tag, .meta.tag .entity {
   color: #B7D877;
 }
-.css .entity.name.tag, .css .entity.pseudo-class, .css .entity.punctuation.definition, .css .entity.other.attribute-name.class, .css .support.function, .css .entity.other.attribute-name.id{
-  color: #fa9a4b;
-}
 .support.type.property-name.css {
   color: #72AACA;
 }
@@ -308,4 +305,40 @@
 
 .level10 {
   color: #416363;
+}
+//Improved styling for CSS
+.css .entity.name.tag, .css .entity.pseudo-class, .css .entity.punctuation.definition, .css .entity.other.attribute-name.class, .css .support.function, .css .entity.other.attribute-name.id{
+  color: #fa9a4b;
+}
+.css .keyword.control.operator{
+  color: #F8F8F8;
+}
+.css .at-rule .support.function.misc{
+  color: #72AACA;
+}
+.meta.property-value .support.constant.named-color, .meta.property-value .constant{
+  color: #b8d977;
+}
+.css .keyword.other.unit{
+  color: #b8d977;
+}
+//Improved styling for Markdown
+.gfm{
+  .link .entity{
+    color: #B7E2F2;
+    font-weight: normal;
+  }
+  .link .markup{
+    color: #B7D877;
+    font-weight: normal;
+  }
+  .heading{
+    color: #72AACA;
+  }
+  .list{
+    color: #B7D25D;
+  }
+}
+.source .gfm{
+  -webkit-font-smoothing: auto;
 }
