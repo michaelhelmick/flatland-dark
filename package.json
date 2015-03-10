@@ -1,7 +1,7 @@
 {
   "name": "flatland-dark",
   "theme": "syntax",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "description": "A Flatland Dark theme",
   "repository": "https://github.com/michaelhelmick/flatland-dark",
