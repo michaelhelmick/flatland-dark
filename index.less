@@ -311,3 +311,12 @@ atom-text-editor .indent-guide,
 .wrap-guide {
   background-color: lighten(#26292C, 10%);
 }
+
+atom-text-editor::shadow .highlight.find-result .region {
+  border: 1px lighten(#798188, 20%) solid;
+}
+
+atom-text-editor::shadow .highlight.current-result .region {
+  border: 1px #fff solid;
+  background: fade(#72aaca, 50%);
+}
