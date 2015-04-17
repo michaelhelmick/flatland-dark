@@ -133,18 +133,21 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
 }
 
 .markup.deleted {
-  color: #EB939A;
   background-color: #D03620;
 }
 
 .markup.changed {
-  color: #72AACA;
   background-color: #C4B14A;
 }
 
 .markup.inserted {
-  color: #B7D877;
   background-color: #41A83E;
+}
+
+atom-text-editor::shadow {
+  .markup.deleted.diff, .markup.changed.diff, .markup.inserted.diff {
+    color: #FFF;
+  }
 }
 
 .entity.other.attribute-name.id.html {
