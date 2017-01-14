@@ -140,7 +140,7 @@ atom-text-editor.is-focused .line-number.cursor-line-no-selection, atom-text-edi
   background-color: #41A83E;
 }
 
-atom-text-editor::shadow {
+atom-text-editor.editor {
   .syntax--markup.syntax--deleted.syntax--diff, .syntax--markup.syntax--changed.syntax--diff, .syntax--markup.syntax--inserted.syntax--diff {
     color: #FFF;
   }
@@ -310,11 +310,11 @@ atom-text-editor .indent-guide {
   background-color: lighten(#26292C, 10%);
 }
 
-atom-text-editor::shadow .highlight.find-result .region {
+atom-text-editor.editor .highlight.find-result .region {
   border: 1px lighten(#798188, 20%) solid;
 }
 
-atom-text-editor::shadow .highlight.current-result .region {
+atom-text-editor.editor .highlight.current-result .region {
   border: 1px #fff solid;
   background: fade(#72aaca, 50%);
 }
